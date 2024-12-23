@@ -1,0 +1,49 @@
+body {
+    background-color: #C5EBDC;
+}
+.counter, .counting {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.counting {
+     font-size: 120%;
+     top: 10vh;
+}
+.counter {
+     font-size: 300%;
+     width: 100%;
+     height: 100%;
+     top: -15%;
+}
+.btns {
+    background-color:#3EB489;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 100%;
+    top: 30vh;
+    margin-left: 40%;
+    position: relative;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.2;
+}
+.btns:hover {
+    background-color: #8BD2B8;
+    color: black;
+}
+.increment {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+.decrement {
+    margin-right: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
